@@ -1,0 +1,22 @@
+{
+  "name": "amyy",
+  "version": "1.0.0",
+  "description": "",
+  "default": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "pixi.js": "^6.4.2"
+  },
+  "devDependencies": {
+    "parcel": "^2.6.0",
+    "querystring-es3": "^0.2.1",
+    "typescript": "^4.7.3"
+  }
+}
