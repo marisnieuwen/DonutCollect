@@ -562,7 +562,7 @@ class Game {
     }
 }
 
-},{"pixi.js":"dsYej","./donut":"6Hibp","./player":"6OTSH","./images/donutstack2.png":"9lSZc","./images/donutgone.png":"kuOKM","./images/town.png":"86EXF","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","./images/characterani.gif":"jtlqw"}],"dsYej":[function(require,module,exports) {
+},{"pixi.js":"dsYej","./donut":"6Hibp","./player":"6OTSH","./images/characterani.gif":"jtlqw","./images/donutstack2.png":"9lSZc","./images/donutgone.png":"kuOKM","./images/town.png":"86EXF","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"dsYej":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "utils", ()=>_utils);
@@ -38610,8 +38610,8 @@ class Player extends _pixiJs.Sprite {
     }
 }
 
-},{"pixi.js":"dsYej","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"9lSZc":[function(require,module,exports) {
-module.exports = require("./helpers/bundle-url").getBundleURL("7UhFu") + "donutstack2.6b21b4f7.png" + "?" + Date.now();
+},{"pixi.js":"dsYej","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"jtlqw":[function(require,module,exports) {
+module.exports = require("./helpers/bundle-url").getBundleURL("7UhFu") + "characterani.69f7444d.gif" + "?" + Date.now();
 
 },{"./helpers/bundle-url":"lgJ39"}],"lgJ39":[function(require,module,exports) {
 "use strict";
@@ -38647,14 +38647,14 @@ exports.getBundleURL = getBundleURLCached;
 exports.getBaseURL = getBaseURL;
 exports.getOrigin = getOrigin;
 
-},{}],"kuOKM":[function(require,module,exports) {
+},{}],"9lSZc":[function(require,module,exports) {
+module.exports = require("./helpers/bundle-url").getBundleURL("7UhFu") + "donutstack2.6b21b4f7.png" + "?" + Date.now();
+
+},{"./helpers/bundle-url":"lgJ39"}],"kuOKM":[function(require,module,exports) {
 module.exports = require("./helpers/bundle-url").getBundleURL("7UhFu") + "donutgone.699a8453.png" + "?" + Date.now();
 
 },{"./helpers/bundle-url":"lgJ39"}],"86EXF":[function(require,module,exports) {
 module.exports = require("./helpers/bundle-url").getBundleURL("7UhFu") + "town.004cb56d.png" + "?" + Date.now();
-
-},{"./helpers/bundle-url":"lgJ39"}],"jtlqw":[function(require,module,exports) {
-module.exports = require("./helpers/bundle-url").getBundleURL("7UhFu") + "characterani.69f7444d.gif" + "?" + Date.now();
 
 },{"./helpers/bundle-url":"lgJ39"}]},["17ZdQ","h7u1C"], "h7u1C", "parcelRequire35a0")
 

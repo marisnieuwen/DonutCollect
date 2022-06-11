@@ -8,11 +8,11 @@ import eatenImage from "./images/donutgone.png";
 import townImage from "./images/town.png";
 
 export class Game {
-  pixi: PIXI.Application;
-  loader: PIXI.Loader;
-  player: Player;
-  background: PIXI.Sprite;
-  donuts: Donut[] = [];
+  public pixi: PIXI.Application;
+  private loader: PIXI.Loader;
+  private player: Player;
+  private background: PIXI.Sprite;
+  private donuts: Donut[] = [];
 
   constructor() {
     this.pixi = new PIXI.Application({ width: 800, height: 600 });
@@ -28,7 +28,7 @@ export class Game {
     this.loader.load(() => this.doneLoading());
   }
 
-  doneLoading() {
+  public doneLoading() {
     this.background = new PIXI.Sprite(
       this.loader.resources["backgroundTexture"].texture!
     );
@@ -56,7 +56,7 @@ export class Game {
     this.pixi.ticker.add((delta) => this.update(delta));
   }
 
-  update(delta: number) {
+  private update(delta: number) {
     this.player.update(delta);
 
     for (let donut of this.donuts) {
@@ -68,7 +68,7 @@ export class Game {
     }
   }
 
-  collision(sprite1: PIXI.Sprite, sprite2: PIXI.Sprite) {
+  private collision(sprite1: PIXI.Sprite, sprite2: PIXI.Sprite) {
     const bounds1 = sprite1.getBounds();
     const bounds2 = sprite2.getBounds();
 
