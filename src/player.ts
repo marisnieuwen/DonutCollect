@@ -4,9 +4,9 @@ import { Game } from "./game"
 
 export class Player extends PIXI.Sprite {
 
-    private xspeed = 0
-    private yspeed = 0
-    private game:Game
+    private xspeed = 0;
+    private yspeed = 0;
+    public game: Game;
 
     constructor(game:Game, texture: PIXI.Texture) {
         super(texture)

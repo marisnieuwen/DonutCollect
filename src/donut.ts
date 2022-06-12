@@ -2,9 +2,9 @@ import * as PIXI from "pixi.js";
 import { Game } from "./game";
 
 export class Donut extends PIXI.Sprite {
-  public game: Game;
   private alive: boolean = true;
   private eatenTexture: PIXI.Texture;
+  private game: Game;
 
   constructor(game: Game, texture: PIXI.Texture, eatenTexture: PIXI.Texture) {
     super(texture);

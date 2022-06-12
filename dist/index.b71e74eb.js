@@ -555,6 +555,14 @@ class Game {
             if (this.collision(donut, this.player)) donut.eaten();
         }
     }
+    // For scrolling background, work in progress
+    //   addBackground() {
+    //     this.bg = new Background(this.pixi.loader.resources["backgroundTexture"].texture!, this.pixi.screen.width, this.pixi.screen.height)
+    //     this.pixi.stage.addChild(this.bg)
+    // }
+    // updateBg() {
+    //     this.bg.update()
+    // }
     collision(sprite1, sprite2) {
         const bounds1 = sprite1.getBounds();
         const bounds2 = sprite2.getBounds();
@@ -38656,6 +38664,6 @@ module.exports = require("./helpers/bundle-url").getBundleURL("7UhFu") + "donutg
 },{"./helpers/bundle-url":"lgJ39"}],"86EXF":[function(require,module,exports) {
 module.exports = require("./helpers/bundle-url").getBundleURL("7UhFu") + "town.004cb56d.png" + "?" + Date.now();
 
-},{"./helpers/bundle-url":"lgJ39"}]},["17ZdQ","h7u1C"], "h7u1C", "parcelRequire35a0")
+},{"./helpers/bundle-url":"lgJ39"}]},["17ZdQ","h7u1C"], "h7u1C", "parcelRequirebe86")
 
 //# sourceMappingURL=index.b71e74eb.js.map
