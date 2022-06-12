@@ -68,6 +68,16 @@ export class Game {
     }
   }
 
+  // For scrolling background, work in progress
+//   addBackground() {
+//     this.bg = new Background(this.pixi.loader.resources["backgroundTexture"].texture!, this.pixi.screen.width, this.pixi.screen.height)
+//     this.pixi.stage.addChild(this.bg)
+// }
+
+// updateBg() {
+//     this.bg.update()
+// }
+
   private collision(sprite1: PIXI.Sprite, sprite2: PIXI.Sprite) {
     const bounds1 = sprite1.getBounds();
     const bounds2 = sprite2.getBounds();
